@@ -36,12 +36,29 @@
     
     
   </head>
-  <body id="top">
-    
+  <body id="top"> 
     <header></header>
+    <div class="open">
+      <div class="card">
+        <!-- <h2>Ada pesan buat kamu</h2>
+          <img onclick="mulai()" src="https://i.postimg.cc/7ZH3t5dL/mail.png" alt="" srcset="" />
+        <h3>Tekan untuk membuka</h3> -->
+        <div class="container">
+          <p class="ww-couple-name ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"></p><img class="ww-wedding-announcement img" src="./images/prewedd/_DSC0070.jpg" 
+          alt="Heart" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"/>
+          <p class="h2 mt-2 ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10">Kepada Yth,</p>
+          <p class="h4 " data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10">Bapak/Ibu/Saudara/i</p>
+          <p class="h4 " data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10">Nama Tamu</p>
+          <a class="btn btn-outline-primary" onclick="mulai()">Buka Undangan</a>
+          <!-- <img onclick="mulai()" src="https://i.postimg.cc/7ZH3t5dL/mail.png" alt="" srcset=""  /> -->
+        </div>
+      </div>
+    </div>
     <div class="page-content">
+      
       <div class="div">
-<div class="ww-home-page" id="home">
+        
+    <div class="ww-home-page" id="home">
   <div class="ww-wedding-announcement d-flex align-items-center justify-content-start">
     <div class="container ww-announcement-container">
       <p class="ww-couple-name ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">Pusvita & Aji</p><img class="img-fluid mt-1" src="images/laurel-1.png" alt="Heart" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"/>
@@ -54,31 +71,7 @@
     <div class="container"><a href="#"><svg class="heart" viewBox="0 0 32 29.6">
       <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/></svg></a>
       <h1 class="h2"><a class="pl-4 navbar-brand" href="#">Wonderful Wedding</a></h1>
-      <!-- <a class="btn" onclick="playPause()" id="playPauseBtn">
-      
-      <img class="" src="images/favicon/audio-icon.png" alt="Heart" width="40 px" height="40 px">
-      </a>
-      <audio id="audio" autoplay="playPause()" loop>
-              <source src="audio/Yovie&Nuno-Janji-Suci.mp3" type="audio/mp3">
-      </audio>
-      <script>
-          window.onload = function(){
-            document.getElementById("audio").play();
-          }
-      </script> -->
-      <!-- <audio id="audio" controls="" style="width: 100%;">
-        <source src="audio/Yovie&Nuno-Janji-Suci.mp3" type="audio/mpeg">
-        Please update your browser does not support the audio element.
-        </audio> -->
-        <script type="text/javascript">
-function autoplay(){
-    var r =confirm("Would You Like To AutoPlay Music?");
-    if (r == true) {
-        document.getElementById("audio").play();
-    }
-  }
-</script>
-<script>autoplay();</script> 
+      <audio class="audio" src="https://www.mboxdrive.com/Selamat%20Ulang%20Tahun%20[Jamrud].mp3" autoplay type="audio" loop=""></audio>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ww-navbarNav" aria-controls="ww-navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse text-uppercase" id="ww-navbarNav">
         <ul class="navbar-nav ml-auto">
@@ -166,7 +159,9 @@ function autoplay(){
           <p>Resepsi akan di laksanakan di Gedung GSG Unesa 
             di Jalan Ketintang Baru Selatan VIII No. 11, Ketintang, Gayungan, Ketintang, Surabaya, Ketintang, Kec. Gayungan, Kota SBY, Jawa Timur 60231, Indonesia</p>
         </div>
-        <div class="col-md-12 text-center ww-category-filter mb-4"><a class="btn btn-outline-primary" href="https://goo.gl/maps/UfjL2dgDNf2MH8ZUA" target="_blank" rel="noopener noreferrer" data-filter="peta_gedung_gsg">Peta Lokasi</a></div>
+        <div class="col-md-12 text-center ww-category-filter mb-4">
+          <a class="btn btn-outline-primary" href="https://goo.gl/maps/UfjL2dgDNf2MH8ZUA" target="_blank" rel="noopener noreferrer" data-filter="peta_gedung_gsg">Peta Lokasi</a>
+        </div>
       </div>
       <div class="col-md-5 col-sm-12">
         <div class="my-3"><img class="img-fluid" src="images/gedung_gsg.png" alt="Reception" data-aos="fade-up-right" data-aos-duration="1000"/></div>
@@ -342,11 +337,29 @@ function autoplay(){
   </div>
 </div></div>
     </div>
-    <footer></footer>
+    <footer></footer>`
     <script src="scripts/jquery.min.js?ver=1.1.0"></script>
     <script src="scripts/bootstrap.bundle.min.js?ver=1.1.0"></script>
     <script src="scripts/aos.js?ver=1.1.0"></script>
     <script src="scripts/ekko-lightbox.min.js?ver=1.1.0"></script>
     <script src="scripts/main.js?ver=1.1.0"></script>
+    <script>
+
+      var musik = "./audio/Yovie&Nuno-Janji-Suci.mp3";
+
+    </script>
+    <script> AOS.init({ once: true, }); </script> 
+    <script> var audio = document.querySelector(".audio"); if(musik) {audio.src = musik;} 
+    function mulai() 
+    { audio.play(); document.querySelector(".open").style = "opacity: 0;"; document.querySelector(".body").style = "overflow-y: scroll;"; 
+    setTimeout(function () { document.querySelector(".open").style.display = "none"; }, 1000); } 
+    function wa(isi) 
+    { window.open("https://api.whatsapp.com/send?text= Makasih ya udah inget ulang tahun aku, di hari spesial ini aku pengin " + isi); } 
+    async function tanya() 
+      { var { value: kado } = await swal.fire({ title: "Di hari spesial ini kamu pengin nya apa?", input: "text", showCancelButton: false, }); 
+        if (kado) { await swal.fire("Kirim jawabannya ke wa aku ya"); 
+        wa(kado); } else { await swal.fire("Jangan dikosongin dong"); 
+        tanya(); } } 
+    </script> 
   </body>
 </html>
