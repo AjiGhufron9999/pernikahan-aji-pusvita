@@ -2,6 +2,14 @@ body {
   font-family: "Dosis", sans-serif; }
 
 /* Home Page Style */
+.ww-invitaion-page {
+  background: url("../images/background_undangan.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: 70%;
+  height: 100vh;
+  min-height: 480px;
+  max-height: 1080px; }
+
 .ww-home-page {
   background: url("../images/prewedd/_DSC0131_1.jpg") no-repeat center center;
   background-size: cover;
@@ -177,6 +185,9 @@ body {
 
 .btn-primary {
   color: #fff; }
+
+  .btn-primary1 {
+    color:coral; }
 
 .btn-outline-primary:hover {
   color: #fff; }  

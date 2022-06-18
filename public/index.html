@@ -41,8 +41,8 @@
     <header></header>
     <div class="page-content">
       <div class="div">
-    <div class="ww-home-page" id="home">
-    <div class="ww-wedding-announcement d-flex align-items-center justify-content-start">
+<div class="ww-home-page" id="home">
+  <div class="ww-wedding-announcement d-flex align-items-center justify-content-start">
     <div class="container ww-announcement-container">
       <p class="ww-couple-name ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">Pusvita & Aji</p><img class="img-fluid mt-1" src="images/laurel-1.png" alt="Heart" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"/>
       <p class="h2 mt-5 ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10">Jum'at, 01<sup></sup> Juli 2022</p>
@@ -66,14 +66,19 @@
             document.getElementById("audio").play();
           }
       </script> -->
-      
-      <p>Click on the play button to play a sound:</p>
-
-<audio autoplay loop>
-  <source src="horse.ogg" type="audio/ogg">
-  <source src="audio/Yovie&Nuno-Janji-Suci.mp3" type="audio/mp3">
-  Your browser does not support the audio element.
-</audio>
+      <!-- <audio id="audio" controls="" style="width: 100%;">
+        <source src="audio/Yovie&Nuno-Janji-Suci.mp3" type="audio/mpeg">
+        Please update your browser does not support the audio element.
+        </audio> -->
+        <script type="text/javascript">
+function autoplay(){
+    var r =confirm("Would You Like To AutoPlay Music?");
+    if (r == true) {
+        document.getElementById("audio").play();
+    }
+  }
+</script>
+<script>autoplay();</script> 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ww-navbarNav" aria-controls="ww-navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse text-uppercase" id="ww-navbarNav">
         <ul class="navbar-nav ml-auto">
