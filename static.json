@@ -1,0 +1,11 @@
+{
+    "root": "public",
+    "clean_erls": true,
+    "error_only": true,
+    "error_page" : "error.html",
+    "header": {
+        "/**": {
+            "Access-Control-Allow_Origin": "*"
+        }
+    }
+}
