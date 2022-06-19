@@ -48,7 +48,7 @@
           data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"/>
           <p class="h2 mt-2 ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10">Kepada Yth,</p>
           <p class="h4 " data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10">Bapak/Ibu/Saudara/i</p>
-          <p class="h4 " data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10">Nama Tamu</p>
+          <p class="h4 " data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10" name="namaTamu"></p>
           
            <a class="btn btn-primary btn-outline-primary" onclick="mulai()">Buka Undangan</a>
       
@@ -364,6 +364,15 @@
     <script src="scripts/aos.js?ver=1.1.0"></script>
     <script src="scripts/ekko-lightbox.min.js?ver=1.1.0"></script>
     <script src="scripts/main.js?ver=1.1.0"></script>
+      <script>
+        function tamuUndangan(){
+          var namatamu = document.getElementsByName("namaTamu").value;
+
+          var url="https://pernikahan-aji-pusvita.herokuapp.com/?to="
+          + namatamu 
+        }
+      </script>
+
     <script>
                 
       function gotowhatsapp() {
