@@ -18,7 +18,7 @@
 .ww-home-page {
   background: url("../images/background_undangan.jpg");
   background-size: cover;
-  /* background-position: 50%; */
+  background-position: 80%;
   height: 100vh;
   min-height: 480px;
   max-height: 1080px; }
@@ -227,6 +227,9 @@
 .ww-title {
   font-family: "Great Vibes", cursive; }
 
+.ww-title1 {
+  font-family:'Times New Roman', Times, serif }
+    
 .ww-section {
   padding: 100px 0; }
 
