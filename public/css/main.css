@@ -44,21 +44,21 @@
           max-height: 250px;
           width: auto; } }
     .ww-home-page .ww-wedding-announcement .ww-couple-name {
-      font-size: 100px; 
+      font-size: 10px; 
       display: block; text-align: center; color: rgb(190, 109, 3); 
       /* background: white;  */
-      font-weight: bold; font-size: 50px; 
+      font-weight: bold; font-size: 10px; 
       padding: 25px 15px; margin: 10px 5px; border-radius: 20px; ;
     }
       @media (max-width: 576px) {
         .ww-home-page .ww-wedding-announcement .ww-couple-name {
-          font-size: 50px; } }
+          font-size: 35px; } }
 
     .ww-nama {
-      font-size: 100px; 
+      font-size: 50px; 
       display: block; text-align: center; color: rgb(190, 109, 3); 
       /* background: white;  */
-      font-weight: bold; font-size: 50px; 
+      font-weight: bold; font-size: 35px; 
       padding: 25px 15px; margin: 10px 5px; border-radius: 20px; box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123);
     }
 
