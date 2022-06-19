@@ -1,75 +1,364 @@
-<!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Wonderful Wedding</title>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
-        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&amp;display=swap"/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&amp;display=swap" media="print" onload="this.media='all'"/>
-        <noscript>
-          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&amp;display=swap"/>
-        </noscript>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
-        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap"/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap" media="print" onload="this.media='all'"/>
-        <noscript>
-          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap"/>
-        </noscript>
-        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-        <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
-        <link href="css/font-awesome/css/all.min.css?ver=1.1.0" rel="stylesheet">
-        <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
-        <link href="css/ekko-lightbox.css?ver=1.1.0" rel="stylesheet">
-        <link href="css/main.css?ver=1.1.0" rel="stylesheet">
-        <noscript>
-          <style type="text/css">
-            [data-aos] {
-                opacity: 1 !important;
-                transform: translate(0) scale(1) !important;
-            }
-          </style>
-        </noscript>
-        
-        
-      </head>
-    <body>
-        <header></header>
-        <div class="page-content">
-            <div class="div">
-          <div class="ww-invitaion-page" id="invitaion">
-          <div class="ww-wedding-announcement d-flex align-items-center justify-content-start">
-          <div class="container ww-announcement-container">
-            <p class="ww-couple-name ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">Pusvita & Aji</p><img class="img-fluid mt-1" src="images/laurel-1.png" alt="Heart" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"/>
-            <p class="h2 mt-5 ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10">Jum'at, 01<sup></sup> Juli 2022</p>
-            <br>
-            <p class="h3 mt-5 ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10">Kepada Yth, Bapak/Ibu/Saudara/i</p>
-            <a class="btn-primary1 btn-outline-primary d-flex align-items-center justify-content-start text-center" href="./index.html" onclick="playPause()">Buka Undangan</a>
-            <a class="btn" onclick="playPause()" id="playPauseBtn">
-      
-      <!-- <img class="" src="images/favicon/audio-icon.png" alt="Heart" width="40 px" height="40 px">
-      </a>
-      <audio id="audio" autoplay="playPause()" loop>
-              <source src="audio/Yovie&Nuno-Janji-Suci.mp3" type="audio/mp3">
-      </audio>
-      <script>
-          window.onload = function(){
-            document.getElementById("audio").play();
-          }
-      </script> -->
+<html lang="en">
+  <!-- 
+  Code Made By Nais ID
+  Youtube: Nais ID
+  Tiktok: @hanizapunyaa
+  -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.4/dist/sweetalert2.all.min.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/font-awesome/css/all.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/ekko-lightbox.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+    <title>Pernikahan Aji & Pusvita</title>
+
+  </head>
+  <body class="body">
+    <!-- <audio class="audio" src="https://www.mboxdrive.com/Selamat%20Ulang%20Tahun%20[Jamrud].mp3" autoplay type="audio" controls></audio> -->
+    <div class="open">
+      <div class="card">
+        <!-- <h2>Ada pesan buat kamu</h2>
+          <img onclick="mulai()" src="https://i.postimg.cc/7ZH3t5dL/mail.png" alt="" srcset="" />
+        <h3>Tekan untuk membuka</h3> -->
+        <p class="ww-couple-name ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"></p>
+          <img class="ww-wedding-announcement img" src="./images/prewedd/_DSC0070.jpg" 
+          data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"/>
+          <p class="h2 mt-2 ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10">Kepada Yth,</p>
+          <p class="h4 " data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10">Bapak/Ibu/Saudara/i</p>
+          <p class="h4 " data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10">Nama Tamu</p>
+          
+           <a class="btn btn-outline-primary" onclick="mulai()">Buka Undangan</a>
+      </div>
+    </div>
+    <!-- <div class="atas" id="atas">
+      <img onclick="mulai()" src="https://i.postimg.cc/25Jn526q/sticker-Ultah.png" alt="" />
+      <h2>Scroll kebawah ya</h2>
+    </div> -->
+    <div class="page-content">
+      <div class="div">
+        <div class="ww-home-page" id="home">
+  <div class="ww-wedding-announcement d-flex align-items-center justify-content-start">
+    <div class="container ww-announcement-container">
+      <p class="ww-couple-name ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">Pusvita & Aji</p><img class="img-fluid mt-1" src="images/laurel-1.png" alt="Heart" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"/>
+      <p class="h2 mt-5 ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10">Jum'at, 01<sup></sup> Juli 2022</p>
+    </div>
+  </div>
+</div>
+<div class="ww-nav-bar sticky-top bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container"><a href="#"><svg class="heart" viewBox="0 0 32 29.6">
+      <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/></svg></a>
+      <h1 class="h2"><a class="pl-4 navbar-brand" href="#">Wonderful Wedding</a></h1>
+      <audio class="audio" src="https://www.mboxdrive.com/Selamat%20Ulang%20Tahun%20[Jamrud].mp3" autoplay type="audio" loop=""></audio>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ww-navbarNav" aria-controls="ww-navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse text-uppercase" id="ww-navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="#couple">Couple</a></li>
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="#events">Events</a></li>
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="#people">Place</a></li>
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="#rsvp">RSVP</a></li>
+          <li class="nav-item">
+            
+            
+          <!-- <script type="text/javascript">
+            const audio = new Audio();
+            audio.src = "./audio/Yovie&Nuno-Janji-Suci.mp3";
+        </script> -->
+          </li> 
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<div class="ww-section" id="couple">
+  <div class="container">
+    <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Bismillahirrohmanirrahim</h2>
+    
+    <h2 class="h3 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Maha Suci Allah SWT, yang menciptakan makhluk-Nya berpasang-pasangan. Ya Allah, Perkenankanlah kami menjalin tali pernikahan</h2>
+    <div class="row text-center">
+      <div class="col-md-6">
+        <div class="mt-3"><img class="img-fluid" src="images/_DSC0246.jpg" alt="Groom" data-aos="flip-left" data-aos-duration="1000"/>
+          <br><br>
+          <h2 class="h2 ww-title">Pusvita Intan Permatasari, A.Md.A.B</h2>
+          <p class="pt-3 ">Putri Bungsu dari Bpk. (alm) Slamet Margono & Ibu Anita Winarsih</p>
+          <div class="ww-social-links">
+            <a class="btn btn-link" href="https://www.facebook.com/PusvitaIntanPermatasari" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a class="btn btn-link" href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <!-- <a class="btn btn-link" href="#"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a> -->
+            <a class="btn btn-link" href="https://www.instagram.com/pusv_/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
+      <div class="col-md-6">
+        <div class="mt-3"><img class="img-fluid" src="images/_DSC0328.jpg" alt="Bride" data-aos="flip-right" data-aos-duration="1000"/>
+          <br><br>
+          <h2 class="h2 ww-title">Muhammad Aji Ghufron, S.ST</h2>
+          <p class="pt-3 ">Putra Sulung dari Bpk. Nurul Huda & Ibu Nunuk Nusi Mardiyati</p>
+          <div class="ww-social-links">
+            <a class="btn btn-link" href="https://www.facebook.com/majighufron" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <!-- <a class="btn btn-link" href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter" aria-hidden="true"></i></a> -->
+            <!-- <a class="btn btn-link" href="#"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a> -->
+            <a class="btn btn-link" href="https://www.instagram.com/aji.ghufron/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          </div>
+        </div>
       </div>
+    </div>
+  </div>
+</div>
+<div class="ww-section bg-light" id="events">
+  <div class="container ww-wedding-event">
+    <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Acara akan dilaksanakan pada</h2>
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="my-3">
+          <div class="h4">Akad Nikah</div>
+          <ul>
+            <li><i class="text-muted fas fa-map-marker-alt"></i><span class="pl-2 text-muted">Masjid Agung Al Akbar Surabaya</span></li>
+            <li class="pt-2"><i class="text-muted far fa-calendar-alt"></i><span class="pl-2 text-muted">Jum'at 01 Juli 2022, 09.00 WIB - 10.00 WIB</span></li>
+          </ul>
+          <p>Ijab Qabul akan dilaksanakan di Masjid Agung tepatnya di Ruang A Mimbar Utama </p>
+          <div class="col-md-12 text-center ww-category-filter mb-4"><a class="btn btn-outline-primary" href="https://goo.gl/maps/NyE2oGtfLc6LC6FG6" target="_blank" rel="noopener noreferrer" data-filter="peta_masjid_agung">Peta Lokasi</a></div>
+        </div>
       </div>
-      <footer></footer>
-    <script src="scripts/jquery.min.js?ver=1.1.0"></script>
-    <script src="scripts/bootstrap.bundle.min.js?ver=1.1.0"></script>
-    <script src="scripts/aos.js?ver=1.1.0"></script>
-    <script src="scripts/ekko-lightbox.min.js?ver=1.1.0"></script>
-    <script src="scripts/main.js?ver=1.1.0"></script>
-    </body>
-    </html>
+      <div class="col-md-5 col-sm-12">
+        <div class="my-3"><img class="img-fluid" src="images/masjid_Al_Akbar.jpg" alt="Wedding Party" data-aos="fade-down-right" data-aos-duration="1000"/></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="my-3">
+          <div class="h4">Resepsi</div>
+          <ul>
+            <li><i class="text-muted fas fa-map-marker-alt "></i><span class="pl-2 text-muted">Gedung Serba Guna GSG UNESA </span></li>
+            <li class="pt-2"><i class="text-muted far fa-calendar-alt "></i><span class="pl-2 text-muted">Jum'at 01 Juli 2022, 15.00 WIB - 18.30 WIB</span></li>
+          </ul>
+          <p>Resepsi akan di laksanakan di Gedung GSG Unesa 
+            di Jalan Ketintang Baru Selatan VIII No. 11, Ketintang, Gayungan, Ketintang, Surabaya, Ketintang, Kec. Gayungan, Kota SBY, Jawa Timur 60231, Indonesia</p>
+        </div>
+        <div class="col-md-12 text-center ww-category-filter mb-4">
+          <a class="btn btn-outline-primary" href="https://goo.gl/maps/UfjL2dgDNf2MH8ZUA" target="_blank" rel="noopener noreferrer" data-filter="peta_gedung_gsg">Peta Lokasi</a>
+        </div>
+      </div>
+      <div class="col-md-5 col-sm-12">
+        <div class="my-3"><img class="img-fluid" src="images/gedung_gsg.png" alt="Reception" data-aos="fade-up-right" data-aos-duration="1000"/></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ww-section" id="people">
+  <div class="container ww-couple-friends">
+    <h2 class="h1 text-center pt-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Kisah Perjalanan Cinta Kami</h2>
+    <!-- <div class="carousel slide" id="ww-carouselIndicator" data-ride="carousel" data-aos="zoom-in-up" data-aos-duration="1000"> -->
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#ww-carouselIndicator" data-slide-to="0"></li>
+        <li data-target="#ww-carouselIndicator" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-4" data-aos="zoom-in-down">
+              <div class="card d-block mb-3">
+                <div class="card-body text-center">
+                  <div class="h4">Maret 2019</div>
+                  <p class="h2 ww-title">Awal Perkenalan</p>
+                  <p class="">Awal Perkenalan kami, saat kami satu perusahaan yang sama. Dari pandangan pertama ini lah saya merasa ada kecocokan di antara kami namun hanya sebatas kenalan saja dan sudah tidak pernah kontak lagi sejak tidak satu project lagi selama kurang lebih 1 tahum.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in-down">
+              <div class="card d-block mb-3">
+                <div class="card-body text-center">
+                  <div class="h4 text-center">Mei 2021</div>
+                  <p class="h2 ww-title">Menjalin hubungan</p>
+                  <p class="">Ada pepatah bilang “Jodoh itu tidak akan kemana”, saat hari dimana kita kembali berkomunikasi pada H+1 lebaran dengan saling mengucapkan mohon maaf lahir dan batin dari sinilah hubungan kami jadi lebih dekat dan bertemu. Lalu saya mengungkapkan perasaan dan berkomitmen.</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in-down">
+              <div class="card d-block mb-3">
+                <div class="card-body text-center">
+                  <div class="h4 text-center">Februari 2022 </div>
+                  <p class="h2 ww-title">Acara Pertemuan antar Keluarga</p>
+                  <p class="">Dengan saling memantapkan hati kami dan saya sangat bersyukur bisa diperkenalkan kepada ibu nya karena dia tahu pria yang akan diperkenalkan ke keluarganya adalah orang yang special. Dari sinilah saya datang bersama keluarga untuk menyampaikan kepadanya bahwa ingin menjalin hubungan yang lebih serius.</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4" data-aos="zoom-in-down">
+                <div class="card d-block mb-3">
+                  <div class="card-body text-center">
+                    <div class="h4 text-center">01 Juli 2022</div>
+                    <p class="h2 ww-title">Akan Melangsungkan Perenikahan</p>
+                    <p class="">Momen special kami akan dimulai setelah 1 tahun kami menjalin hubungan, dimana kami akan membangun keluarga kecil kami. Semoga Allah SWT memberikan keberkahan untuk pernikahan kami dan menjadi keluarga yang Sakinah Mawaddah Warahmah.    </p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <!-- <div class="carousel-item">
+          
+            <!-- <div class="col-md-4">
+              <div class="card d-block mb-3"><img class="card-img-top" src="images/bride-maid-2.jpg" alt="Bride Maid 2"/>
+                <div class="card-body text-center">
+                  <div class="h5 text-center">Betty George</div>
+                  <p class="mb-0 text-muted">Room Mate</p>
+                  <p class="text-muted">Bridesmaids</p>
+                  <div class="ww-social-links"><a class="btn btn-link" href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a><a class="btn btn-link" href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a><a class="btn btn-link" href="#"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a><a class="btn btn-link" href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></div>
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="col-md-4">
+              <div class="card d-block mb-3"><img class="card-img-top" src="images/bride-maid-3.jpg" alt="Bride Maid 3"/>
+                <div class="card-body text-center">
+                  <div class="h5 text-center">Emma Snyder</div>
+                  <p class="mb-0 text-muted">Friend</p>
+                  <p class="text-muted">Bridesmaids</p>
+                  <div class="ww-social-links"><a class="btn btn-link" href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a><a class="btn btn-link" href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a><a class="btn btn-link" href="#"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a><a class="btn btn-link" href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></div>
+                </div>
+              </div>
+            </div> -->
+          </div> -->
+        </div>
+      <!-- </div> -->
+    </div>
+  </div>
+</div>
+<div class="ww-section bg-light" id="gallery">
+  <div class="ww-photo-gallery">
+    <div class="container">
+      <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Photo Gallery</h2>
+      <div class="col-md-12 text-center ww-category-filter mb-4"><a class="btn btn-outline-primary ww-filter-button" href="#" data-filter="all">All</a>
+        <a class="btn btn-outline-primary ww-filter-button" href="#" data-filter="casual">Casual</a>
+        <a class="btn btn-outline-primary ww-filter-button" href="#" data-filter="wedding">Pre Wedding</a></div>
+      <div class="ww-gallery" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="0">
+        <div class="card-columns">
+          <div class="card" data-groups="[&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0015.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0015.jpg" alt="Gallery Pic 1"/></a></div>
+          <div class="card" data-groups="[&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0070.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0070.jpg" alt="Gallery Pic 2"/></a></div>
+          <div class="card" data-groups="[&quot;wedding&quot;]"><a href="images/prewedd/_DSC0357.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0357.jpg" alt="Gallery Pic 3"/></a></div>
+          <div class="card" data-groups="[&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0355.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0355.jpg" alt="Gallery Pic 4"/></a></div>
+          <div class="card" data-groups="[&quot;wedding&quot;]"><a href="images/prewedd/_DSC0291.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0291.jpg" alt="Gallery Pic 5"/></a></div>
+          <div class="card" data-groups="[&quot;wedding&quot;,&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0259.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0259.jpg" alt="Gallery Pic 6"/></a></div>
+          <div class="card" data-groups="[&quot;casual&quot;]"><a href="images/prewedd/_DSC0473.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0473.jpg" alt="Gallery Pic 7"/></a></div>
+          <div class="card" data-groups="[&quot;casual&quot;,&quot;casual&quot;]"><a href="images/prewedd/_DSC0486.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0486.jpg" alt="Gallery Pic 8"/></a></div>
+          <div class="card" data-groups="[&quot;casual&quot;,&quot;casual&quot;]"><a href="images/prewedd/_DSC0510.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0510.jpg" alt="Gallery Pic 9"/></a></div>
+          <div class="card" data-groups="[&quot;casual&quot;,&quot;casual&quot;]"><a href="images/prewedd/_DSC0507.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0507.jpg" alt="Gallery Pic 10"/></a></div>
+          <div class="card" data-groups="[&quot;casual&quot;,&quot;casual&quot;]"><a href="images/prewedd/_DSC0515.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0515.jpg" alt="Gallery Pic 10"/></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ww-section ww-rsvp-detail text-white" id="rsvp">
+  <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
+    <div class="col text-center">
+      <h2 class="h1 ww-title pb-3" data-aos="zoom-in-down" data-aos-duration="1000">Reservasi Kehadiran</h2>
+    
+    <p data-aos="zoom-in">Pencet love nya 
+      <i onclick="tanya()" class="material-icons-sharp"> favorite </i></p>
+      <!-- <a class="btn btn-outline-primary" onclick="tanya()">Konfirmasi ya</a> -->
+    <!-- <div class="row ww-rsvp-form">
+      <div class="col-md-10">
+        <div class="card-body">
+          <form action="https://api.whatsapp.com/send?">
+            <div class="row">
+              <div class="col md-6 pb-3">
+                <div class="form-group">
+                  <label for="phone">Kirim ke</label>
+                  <select class="form-control" id="events-input" name="phone">
+                    <option value="628995129298">628995129298</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col md-6 pb-3">
+                <div class="form-group">
+                  <label for="name-input">Isikan Nama Anda</label>
+                  <input class="form-control" id="name-input" name="text" required="required"/>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label for="phone">Konfirmasi kehadiran</label>
+                  <select class="form-control" id="events-input" name="text">
+                    <option value="Iya, saya akan menghadiri acara pernikahan anda dan semoga selalu diberi kelancaran">
+                      Iya, saya akan menghadiri acara pernikahan anda 
+                    </option>
+                    <option value="Maaf, saya belum pasti bisa menghadiri acara pernikahan anda dan semoga selalu diberi kelancaran">
+                      Maaf, saya belum pasti bisa menghadiri acara pernikahan anda
+                    </option>
+                    <option value="Maaf, saya belum pasti bisa menghadiri acara pernikahan anda dan semoga selalu diberi kelancaran">
+                      Maaf saya tidak bisa menghadiri acara pernikahan anda 
+                    </option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col text-center">
+                <button class="btn btn-primary btn-submit" type="submit">Konfirmasi via Whatsapp</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div> -->
+  </div>
+  </div>
+</div>
+<div class="ww-footer bg-light">
+  <div class="container text-center py-4">
+    <p class="my-0">&copy; Pernikahan Aji & Pusvita</p>
+    
+  </div>
+</div></div>
+    <p data-aos="zoom-in">Pencet love nya 
+      <i onclick="tanya()" class="material-icons-sharp"> favorite </i></p>
+
+    <script>
+
+      var musik = "./audio/Yovie&Nuno-Janji-Suci.mp3";
+
+    </script>
+    <script> AOS.init({ once: true, }); </script> <script> var audio = document.querySelector(".audio"); 
+    if(musik) {
+      audio.src = musik;
+      audio.controls = musik
+    } 
+    function mulai() { audio.play(); document.querySelector(".open").style = "opacity: 0;"; document.querySelector(".body").style = "overflow-y: scroll;"; 
+    setTimeout(function () { document.querySelector(".open").style.display = "none"; }, 1000); } function wa(isi) 
+    { window.open("https://api.whatsapp.com/send?text= Makasih ya udah inget ulang tahun aku, di hari spesial ini aku pengin " + isi); } 
+    async function tanya() { var { value: kado } = await swal.fire({ title: "Di hari spesial ini kamu pengin nya apa?", input: "text", showCancelButton: false, }); if (kado) { await swal.fire("Kirim jawabannya ke wa aku ya"); 
+    wa(kado); } else { await swal.fire("Jangan dikosongin dong"); tanya(); } } 
+    </script> 
+    <!-- <p class="wm"><span><a href="https://www.youtube.com/naisid">Made by Nais ID on Youtube</a></span></p> -->
+  </body>
+</html>

@@ -1,11 +1,21 @@
 body {
-  font-family: "Dosis", sans-serif; }
+  font-family: "Dosis", sans-serif; 
+  background-position: center; background-size: cover;
+}
 
 /* Home Page Style */
-.ww-home-page {
-  background: url("../images/prewedd/_DSC0131_1.jpg") no-repeat center center;
+.ww-home-page-1 {
+  background: url("../images/background_undangan.jpg");
   background-size: cover;
-  background-position: 70%;
+  /* background-position: 70%; */
+  height: 100vh;
+  min-height: 480px;
+  max-height: 1080px; 
+  z-index: 1}
+.ww-home-page {
+  background: url("../images/background_undangan.jpg");
+  background-size: cover;
+  /* background-position: 50%; */
   height: 100vh;
   min-height: 480px;
   max-height: 1080px; }
@@ -16,12 +26,12 @@ body {
     height: 100%;
     color: #fff;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-    letter-spacing: 2px; }
+    letter-spacing: 2px; 
+    padding-top: 10%;}
     .ww-home-page .ww-wedding-announcement .ww-announcement-container {
       max-width: 600px;
       text-align: center;
-      margin-left: 0;
-      /* z-index: 999;  */
+      /* margin-left: 0; */
     }
     .ww-home-page .ww-wedding-announcement img {
       max-height: 350px;
@@ -31,7 +41,12 @@ body {
           max-height: 250px;
           width: auto; } }
     .ww-home-page .ww-wedding-announcement .ww-couple-name {
-      font-size: 70px; }
+      font-size: 100px; 
+      display: block; text-align: center; color: rgb(56, 56, 56); 
+      /* background: white;  */
+      font-weight: bold; font-size: 50px; 
+      padding: 25px 15px; margin: 10px 5px; border-radius: 20px; box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123);
+    }
       @media (max-width: 576px) {
         .ww-home-page .ww-wedding-announcement .ww-couple-name {
           font-size: 50px; } }
@@ -49,19 +64,27 @@ body {
   top: 0; }
 
   /* Style open card */
-  .open { background-image: linear-gradient(#ff71c0, #b983ff); 
-    height: 100vh; width: 100vw; position: fixed; top: 0; display: flex; flex-direction: column; align-items: center; align-content: center; justify-content: center; z-index: 1; transition: 0.5s all ease;
+  .open { background: url("../images/kita_3.jpg");
+    background-size:cover; 
+    background-position: center;
+    height: 100%; width: 100%; 
     min-height: 480px;
-    max-height: 1080px; } 
+    max-height: 1080px; 
+    position: fixed; top: 0; display: flex; flex-direction: column; align-items: center; align-content: center; justify-content: center; z-index: 1; transition: 0.5s;
+    } 
   .open h2 { margin-bottom: 20px; color: rgb(56, 56, 56); text-align: center; max-width: 600px; } 
-  .open .card { background: white; padding: 50px; border-radius: 10px; box-shadow: 50px 50px 30px rgba(0, 0, 0, 0.123); text-align: center; } 
+  .open .card { background: white;
+    background: rgba(255, 255, 255, 0.73); 
+    padding: 50px; border-radius: 10px; box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123); text-align: center; } 
   .open .card h3 { margin-top: 20px; } 
   .open .card img { height: 200px; } .atas { height: 200vh; display: flex; flex-direction: column; justify-content: center; align-items: center; } 
   .atas img { height: 200px; margin-bottom: 50px; padding: 20px 30px; background: white; border-radius: 20px; box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123); } 
   .atas h2 { font-size: 1.5em; padding: 20px 30px; background: white; border-radius: 20px; box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123); } 
   /* p { display: block; text-align: center; color: rgb(56, 56, 56); background: white; font-weight: bold; font-size: 1.5em; padding: 50px 30px; margin: 40px 20px; border-radius: 20px; box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123); }  */
   p.wm { margin-top: 70px; margin-bottom: 0; padding-top: 30px; padding-bottom: 25px; border-radius: 20px 20px 0 0; font-weight: 500; font-size: 1.1em; color: red; } p.wm a { color: red; text-decoration: none; } 
-  .material-icons-sharp { color: red; font-size: 30px; transform: translateY(5px); animation: kenyal 2s ease infinite; cursor: pointer; } @keyframes kenyal { 0% { transform: scale(1) translateY(5px); } 50% { transform: scale(1.2) translateY(5px); } 100% { transform: scale(1) translateY(5px); } }
+  .material-icons-sharp { color: red; font-size: 30px; transform: translateY(5px); 
+    animation: kenyal 2s ease infinite; cursor: pointer; } 
+    @keyframes kenyal { 0% { transform: scale(1) translateY(5px); } 50% { transform: scale(1.2) translateY(5px); } 100% { transform: scale(1) translateY(5px); } }
   
 
 /* Nav Bar Style */
@@ -203,4 +226,8 @@ body {
 
 .btn-audio {
   color: #fff; }
+
+.protkes {
+  height: 30px; display: flex; flex-direction: column; justify-content: center; align-items: center;
+}
   
