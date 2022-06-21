@@ -25,6 +25,15 @@
     <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
     <link href="css/ekko-lightbox.css?ver=1.1.0" rel="stylesheet">
     <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+
+    <!-- komentar chat -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+
+    <!-- The CSS and JS file must be declared after the things above-->
+    <link rel="stylesheet" href="../coba.css"/>
+    <!-- <script type="text/javascript" src="../coba.js"></script> -->
+
     <noscript>
       <style type="text/css">
         [data-aos] {
@@ -234,15 +243,13 @@
                 </div>
                 <div class="timeline-body">
                   <div class="timeline_img">
-                     <img src="img/placehold/timeline.png" alt="Couple first meet" />
-                     <div class="overlay_tml">
+                    <p class="ww-nama5">Awal Perkenalan kami, saat kami satu perusahaan yang sama. Dari pandangan pertama ini lah saya merasa ada kecocokan di antara kami namun hanya sebatas kenalan saja dan sudah tidak pernah kontak lagi sejak tidak satu project lagi selama kurang lebih 1 tahum.</p>
+                     <!-- <div class="overlay_tml">
                       <div class="overlay_text">
                         <div class="inner-extra">
-                           <a href="img/two/image1.png" data-gal="prettyPhoto"><img src="img/zoom.png" alt="" /></a>
-                           <p>Day we meet each other</p>
                         </div>
                       </div>
-                    </div><!-- .overlay_tml -->
+                    </div>.overlay_tml -->
                    </div>
                 </div>
               </div>
@@ -250,7 +257,7 @@
             </li>
             <li class="left">
               <div class="timeline-image">
-                <img class="img-circle img-responsive" src="img/love_btn_h.png" alt="">
+                <img class="img-circle img-responsive" src="img/timeline/love.png" alt="">
               </div>
                <div class="timeline-panel left-panel">
                 <div class="timeline-heading">
@@ -259,15 +266,13 @@
                 </div>
                 <div class="timeline-body">
                   <div class="timeline_img">
-                     <img src="img/placehold/timeline.png" alt="" />
-                     <div class="overlay_tml">
+                    <p class="ww-nama5">Ada pepatah bilang “Jodoh itu tidak akan kemana”, saat hari dimana kita kembali berkomunikasi pada H+1 lebaran dengan saling mengucapkan mohon maaf lahir dan batin dari sinilah hubungan kami jadi lebih dekat dan bertemu. Lalu saya mengungkapkan perasaan dan berkomitmen.</p>
+                     <!-- <div class="overlay_tml">
                       <div class="overlay_text">
                         <div class="inner-extra">
-                           <a href="img/two/image2.png" data-gal="prettyPhoto"><img src="img/zoom.png" alt="" /></a>
-                           <p></p>
                         </div>
                       </div>
-                    </div><!-- .overlay_tml -->
+                    </div>.overlay_tml -->
                    </div>
                 </div>
               </div>
@@ -283,15 +288,13 @@
                 </div>
                 <div class="timeline-body">
                   <div class="timeline_img">
-                     <img src="img/placehold/timeline.png" alt="Couple first holiday trip" />
-                     <div class="overlay_tml">
+                    <p class="ww-nama5">Dengan saling memantapkan hati kami dan saya sangat bersyukur bisa diperkenalkan kepada ibu nya karena dia tahu pria yang akan diperkenalkan ke keluarganya adalah orang yang special. Dari sinilah saya datang bersama keluarga untuk menyampaikan kepadanya bahwa ingin menjalin hubungan yang lebih serius.</p>
+                     <!-- <div class="overlay_tml">
                       <div class="overlay_text">
                         <div class="inner-extra">
-                           <a href="img/two/image3.png" data-gal="prettyPhoto"><img src="img/zoom.png" alt="" /></a>
-                           <p>our holiday trip</p>
                         </div>
                       </div>
-                    </div><!-- .overlay_tml -->
+                    </div>.overlay_tml -->
                    </div>
                 </div>
               </div>
@@ -307,15 +310,13 @@
                 </div>
                 <div class="timeline-body">
                   <div class="timeline_img">
-                     <img src="img/placehold/timeline.png" alt="Couple get engaged" />	
-                      <div class="overlay_tml">
+                    <p class="ww-nama5">Momen special kami akan dimulai setelah 1 tahun kami menjalin hubungan, dimana kami akan membangun keluarga kecil kami. Semoga Allah SWT memberikan keberkahan untuk pernikahan kami dan menjadi keluarga yang Sakinah Mawaddah Warahmah.    </p>	
+                      <!-- <div class="overlay_tml">
                       <div class="overlay_text">
                         <div class="inner-extra">
-                           <a href="img/two/image4.png" data-gal="prettyPhoto"><img src="img/zoom.png" alt="" /></a>
-                           <p>get engaged</p>
                         </div>
                       </div>
-                    </div><!-- .overlay_tml -->
+                    </div>.overlay_tml -->
                    </div>
                 </div>
               </div>
@@ -415,87 +416,22 @@
 <div class="ww-section ww-rsvp-detail text-white" id="rsvp">
   <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
     <div class="col text-center">
-      <h2 class="h1 ww-title pb-3" data-aos="zoom-in-down" data-aos-duration="1000">Reservasi Kehadiran</h2>
-    
-    <!-- <p data-aos="zoom-in">Mohon konfirmasinya ya 
-      <br>
-      <br>
-      <button class="btn btn-primary btn-submit" onclick="tanya()"  type="submit">Konfirmasi via Whatsapp</button>
-    </p> -->
-      <!-- <a class="btn btn-outline-primary" onclick="tanya()">Konfirmasi ya</a> -->
-    <!-- <div class="row ww-rsvp-form">
-      <div class="col-md-10">
-        <div class="card-body"> -->
-          <form autocomplete="off">
-            <div class="row">
-              <div class="col md-6 pb-3">
-                <div class="form-group">
-                  <label for="phone">Kirim ke</label>
-                  <select class="form-control" id="phone">
-                    <option value="628995129298">Aji - 628995129298</option>
-                    <option value="6282131745181">Pusvita - 6282131745181</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col md-6 pb-3">
-                <div class="form-group">
-                  <label for="name-input">Isikan Nama Anda</label>
-                  <input class="form-control" id="name" required="required"/>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <div class="form-group">
-                  <label for="phone">Konfirmasi kehadiran</label>
-                  <select class="form-control" id="kehadiran" >
-                    <option value="Iya, saya akan menghadiri acara pernikahan anda ">
-                      Iya, saya akan menghadiri acara pernikahan anda 
-                    </option>
-                    <option value="Maaf, saya belum pasti bisa menghadiri acara pernikahan anda">
-                      Maaf, saya belum pasti bisa menghadiri acara pernikahan anda
-                    </option>
-                    <option value="Maaf, saya belum pasti bisa menghadiri acara pernikahan anda">
-                      Maaf saya tidak bisa menghadiri acara pernikahan anda 
-                    </option>
-                  </select>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col md-6 pb-3">
-                <div class="form-group">
-                  <label for="name-input">Berikan Ucapan dan Doa</label>
-                  <textarea class="form-control" id="pesan"></textarea>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col text-center">
-                <input
-                      type="submit"
-                      name="submit"
-                      class="btn btn-primary"
-                      value="Kirim Via Whatsapp"
-                      onclick="gotowhatsapp()"
-                    />
-              </div>
-            </div>
-          </form>
+      <h2 class="h1 ww-title pb-3" data-aos="zoom-in-down" data-aos-duration="1000">Ucapan & Doa</h2>
+      <img class="img-fluid mt-1 card-img-top" src="images/prewedd/_DSC0283.jpg" alt=""/><br><br><br>
+          <button class="btn btn-primary1" type="button" name="btnSubmit" id="btnSubmit" onclick="kehadiran()">Kirim Pesan</button>
         </div>
       <!-- </div>
     </div> -->
   </div>
   </div>
 </div>
-<div class="ww-footer bg-light">
+<!-- <div class="ww-footer bg-light">
   <div class="container text-center py-4">
     <p class="my-0">&copy; Pernikahan Aji & Pusvita</p>
     
   </div>
-</div></div>
+</div> -->
+</div>
     
     <!-- <p data-aos="zoom-in">Pencet love nya 
       <i onclick="tanya()" class="material-icons-sharp"> favorite </i></p> -->
@@ -505,6 +441,20 @@
     <script src="scripts/aos.js?ver=1.1.0"></script>
     <script src="scripts/ekko-lightbox.min.js?ver=1.1.0"></script>
     <script src="scripts/main.js?ver=1.1.0"></script>
+    <script src="scripts/function.js"></script>
+    
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyCO2ebrrbVhIBlsMo_wFaq-ESrzXxJsYVI",
+        authDomain: "pernikahan-aji-pusvita.firebaseapp.com",
+        databaseURL: "https://pernikahan-aji-pusvita-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "pernikahan-aji-pusvita",
+        storageBucket: "pernikahan-aji-pusvita.appspot.com",
+        messagingSenderId: "387364943897",
+        appId: "1:387364943897:web:816ee96f3a156a0536d288",
+        measurementId: "G-RVJ3C0T1ZM"
+      };
+    </script>
     <script>
       function countDown() {
           var last = new Date("07/01/2022");
@@ -558,7 +508,8 @@
 
     </script>
     <script> AOS.init({ once: true, }); </script> 
-    <script> var audio = document.querySelector(".audio"); 
+    <script> 
+    var audio = document.querySelector(".audio"); 
     if(musik) {
       audio.src = musik;
       audio.controls= musik;

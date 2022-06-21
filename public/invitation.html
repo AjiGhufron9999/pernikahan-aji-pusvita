@@ -285,13 +285,14 @@
     <!-- <div class="row ww-rsvp-form">
       <div class="col-md-10">
         <div class="card-body">
-          <form action="https://api.whatsapp.com/send?">
+          <!-- <form autocomplete="off">
             <div class="row">
               <div class="col md-6 pb-3">
                 <div class="form-group">
                   <label for="phone">Kirim ke</label>
-                  <select class="form-control" id="events-input" name="phone">
-                    <option value="628995129298">628995129298</option>
+                  <select class="form-control" id="phone">
+                    <option value="628995129298">Aji - 628995129298</option>
+                    <option value="6282131745181">Pusvita - 6282131745181</option>
                   </select>
                 </div>
               </div>
@@ -300,7 +301,7 @@
               <div class="col md-6 pb-3">
                 <div class="form-group">
                   <label for="name-input">Isikan Nama Anda</label>
-                  <input class="form-control" id="name-input" name="text" required="required"/>
+                  <input class="form-control" id="name" required="required"/>
                 </div>
               </div>
             </div>
@@ -308,14 +309,14 @@
               <div class="col">
                 <div class="form-group">
                   <label for="phone">Konfirmasi kehadiran</label>
-                  <select class="form-control" id="events-input" name="text">
-                    <option value="Iya, saya akan menghadiri acara pernikahan anda dan semoga selalu diberi kelancaran">
+                  <select class="form-control" id="kehadiran" >
+                    <option value="Iya, saya akan menghadiri acara pernikahan anda ">
                       Iya, saya akan menghadiri acara pernikahan anda 
                     </option>
-                    <option value="Maaf, saya belum pasti bisa menghadiri acara pernikahan anda dan semoga selalu diberi kelancaran">
+                    <option value="Maaf, saya belum pasti bisa menghadiri acara pernikahan anda">
                       Maaf, saya belum pasti bisa menghadiri acara pernikahan anda
                     </option>
-                    <option value="Maaf, saya belum pasti bisa menghadiri acara pernikahan anda dan semoga selalu diberi kelancaran">
+                    <option value="Maaf, saya belum pasti bisa menghadiri acara pernikahan anda">
                       Maaf saya tidak bisa menghadiri acara pernikahan anda 
                     </option>
                   </select>
@@ -323,11 +324,27 @@
               </div>
             </div>
             <div class="row">
-              <div class="col text-center">
-                <button class="btn btn-primary btn-submit" type="submit">Konfirmasi via Whatsapp</button>
+              <div class="col md-6 pb-3">
+                <div class="form-group">
+                  <label for="name-input">Berikan Ucapan dan Doa</label>
+                  <textarea class="form-control" id="pesan"></textarea>
+                </div>
               </div>
             </div>
-          </form>
+            <div class="row">
+              <div class="col text-center">
+                <input
+                      type="submit"
+                      name="submit"
+                      class="btn btn-primary"
+                      value="Kirim Via Whatsapp"
+                      onclick="kehadiran()"
+                    />
+              </div>
+              <div class="col text-center">
+              </div>
+            </div>
+          </form> -->
         </div>
       </div>
     </div> -->
