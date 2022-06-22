@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  
+
 
 
 
@@ -32,7 +32,7 @@
     <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
 
     <!-- The CSS and JS file must be declared after the things above-->
-    
+
     <!-- <script type="text/javascript" src="../coba.js"></script> -->
 
     <noscript>
@@ -43,25 +43,27 @@
         }
       </style>
     </noscript>
-    
-    
+
+
   </head>
-  <body class="body"> 
-    
-    
+  <body class="body">
+
+
     <div class="open">
       <div class="card">
-        
-        
-          <p class="ww-nama1 ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">The Wedding Of</p>
-          <img class="cover-image" src="./images/cover.png" 
-          data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"/>
-          <p class="h2 ww-nama1 ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10">Kepada Yth,</p>
-          <p class="h4 ww-nama2" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10">Bapak/Ibu/Saudara/i</p>
-          <p class="h4 ww-nama2" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10" name="namaTamu" id="namaTamu"></p>
-          
-           <a class="btn btn-primary1 btn-outline-primary" onclick="mulai()">Buka Undangan</a>
-      
+
+
+          <p class="ww-font-cover" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">The Wedding Of</p>
+          <!-- <img class="" src="./images/inisial_2.png" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"/> -->
+          <p class="ww-font-cover2" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">Pusvita</p>
+          <p class="ww-font-cover3" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">-and-</p>
+          <p class="ww-font-cover2" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">Aji</p>
+          <p class="ww-font-cover" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10">Kepada Yth,</p>
+          <p class="ww-font-cover" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10">Bapak/Ibu/Saudara/i</p>
+          <p class="ww-font-cover4" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10" name="namaTamu" id="namaTamu"></p>
+
+           <a class="btn btn-primary1 btn-outline-primary" onclick="mulai()">Open Invitation</a>
+
       </div>
     </div>
     <div class="page-content">
@@ -69,15 +71,18 @@
         <div class="ww-home-page" id="home">
 
   <div class="ww-wedding-announcement">
-    
+
     <div class="container ww-announcement-container">
-      
-      <p class="ww-nama ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">The Wedding Of</p>
-      <img class="" src="images/cover.png" alt="Heart" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"/>
-      <p class="ww-nama1 ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">Pusvita & Aji </p>
-        <p class="ww-nama2" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">Jum'at, 01 Juli 2022</p>
+
+      <p class="ww-nama" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"></p>
+      <!-- <p class="ww-nama1" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">A New Chapter of Our Story Begins</p> -->
+      <!-- <img class="" src="images/inisial_2.png" alt="Heart" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"/> -->
+      <!-- <p class="ww-nama3 ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">Pusvita</p>
+      <p class="ww-nama1 ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">-&-</p>
+      <p class="ww-nama3 ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">Aji</p>
+        <p class="ww-nama2" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">Jum'at,01 Juli 2022</p> -->
       <div id="countdown" class="flex-wrap d-flex justify-content-center">
-        <div id="days" class="align-items-center flex-column d-flex justify-content-center">days</div>
+        <div id="days" class="align-items-center flex-column d-flex justify-content-center"></div>
         <div id="hours" class="align-items-center flex-column d-flex justify-content-center"></div>
         <div id="minutes" class="align-items-center flex-column d-flex justify-content-center"></div>
         <div id="seconds" class="align-items-center flex-column d-flex justify-content-center"></div>
@@ -101,25 +106,25 @@
           <li class="nav-item"><a class="nav-link smooth-scroll" href="#gallery">Gallery</a></li>
           <li class="nav-item"><a class="nav-link smooth-scroll" href="#rsvp">RSVP</a></li>
           <li class="nav-item">
-          </li> 
+          </li>
         </ul>
       </div>
-    </div>  
-      
+    </div>
+
   </nav>
 </div>
 <div class="ww-section bg-flower" id="couple">
   <div class="container">
-    
+
     <h2 class="ww-title ww-nama4" data-aos="zoom-in-down" data-aos-duration="1000">Bismillahirrohmanirrahim</h2>
-    
-    <h4 class="h4 text-center pb-3 ww-nama3 ww-font" data-aos="zoom-in-down" data-aos-duration="1000">Maha Suci Allah SWT, yang menciptakan makhluk-Nya berpasang-pasangan. Ya Allah, semoga ridho-Mu tercurah mengiringi pernikahan kami:</h4>
+
+    <h4 class="text-center pb-3 ww-font-cover" data-aos="zoom-in-down" data-aos-duration="1000">Maha Suci Allah SWT, yang menciptakan makhluk-Nya berpasang-pasangan. Ya Allah, semoga ridho-Mu tercurah mengiringi pernikahan kami:</h4>
     <div class="row text-center ">
       <div class="col-md-6">
         <div class="mt-3"><img class="img-fluid" src="images/_DSC0246.jpg" alt="Groom" data-aos="flip-left" data-aos-duration="1000"/>
           <br><br>
-          <h2 class="couple ww-title">Pusvita Intan Permatasari, A.Md.A.B</h2>
-          <p class="ww-nama3">Putri Bungsu dari Bpk. (alm) Slamet Margono & Ibu Anita Winarsih</p>
+          <h2 class="ww-nama6 ww-font1">Pusvita Intan Permatasari, A.Md.A.B</h2>
+          <p class="ww-font-cover">Putri Bungsu dari Bpk. (alm) Slamet Margono & Ibu Anita Winarsih</p>
           <div class="ww-social-links">
           </div>
         </div>
@@ -127,8 +132,8 @@
       <div class="col-md-6">
         <div class="mt-3"><img class="img-fluid" src="images/_DSC0328.jpg" alt="Bride" data-aos="flip-right" data-aos-duration="1000"/>
           <br><br>
-          <h2 class="couple ww-title">Muhammad Aji Ghufron, S.ST</h2>
-          <p class="ww-nama3">Putra Sulung dari Bpk. Nurul Huda & Ibu Nunuk Nusi Mardiyati</p>
+          <h2 class="ww-nama4 ww-font1">Muhammad Aji Ghufron, S.ST</h2>
+          <p class="ww-font-cover">Putra Sulung dari Bpk. Nurul Huda & Ibu Nunuk Nusi Mardiyati</p>
           <div class="ww-social-links">
           </div>
         </div>
@@ -136,26 +141,26 @@
     </div>
   </div>
 </div>
-<div class="ww-section bg-light" id="events">
-  <div class="container ww-wedding-event">
-    <h2 class="text-center pb-3 ww-title ww-nama1" data-aos="zoom-in-down" data-aos-duration="1000">Acara akan dilaksanakan pada</h2>
+<div class="ww-section " id="events">
+  <div class="container ww-acara">
     <div class="row">
-      <div class="col-md-7 col-sm-12">
-        <div class="my-3">
-          <div class="h4 ww-nama2"  data-aos="zoom-in-down" data-aos-duration="1000">Akad Nikah</div>
-          <ul>
-            <li><i class="text-muted fas fa-map-marker-alt"  data-aos="zoom-in-down" data-aos-duration="1000"></i><span class="pl-2 text-muted"  data-aos="zoom-in-down" data-aos-duration="1000">Masjid Agung Al Akbar Surabaya</span></li>
-            <li class="pt-2"><i class="text-muted far fa-calendar-alt"  data-aos="zoom-in-down" data-aos-duration="1000"></i><span class="pl-2 text-muted"  data-aos="zoom-in-down" data-aos-duration="1000">Jum'at 01 Juli 2022, 09.00 WIB - 10.00 WIB</span></li>
-          </ul>
-          <p  data-aos="zoom-in-down" data-aos-duration="1000">Ijab Qabul akan dilaksanakan di Masjid Agung tepatnya di Ruang A Mimbar Utama </p>
-          <div class="col-md-12 text-center ww-category-filter mb-4"  data-aos="zoom-in-down" data-aos-duration="1000"><a class="btn btn-primary1" href="https://goo.gl/maps/NyE2oGtfLc6LC6FG6" target="_blank" rel="noopener noreferrer" data-filter="peta_masjid_agung">Peta Lokasi</a></div>
-        </div>
-      </div>
-      <div class="col-md-5 col-sm-12">
-        <div class="my-3"><img class="img-fluid" src="images/masjid_Al_Akbar.jpg" alt="Wedding Party" data-aos="fade-down-right" data-aos-duration="1000"/></div>
-      </div>
+      <!-- <img class="ww-acara" src="images/backgroun_bunga.png" alt="Bride" data-aos="flip-right" data-aos-duration="1000"/> -->
+    <!-- <h2 class="text-center ww-nama-acara ww-font2" data-aos="zoom-in-down" data-aos-duration="1000">Acara akan dilaksanakan pada</h2> -->
+      <!-- <div class="col-md-7 col-sm-12">
+        <div class="my-3"> -->
+
+         <div class="col-md-12 text-center ww-category-filter mb-4"  data-aos="zoom-in-down" data-aos-duration="1000">
+          <a class="btn btn-primary1" href="https://goo.gl/maps/NyE2oGtfLc6LC6FG6" target="_blank" rel="noopener noreferrer" data-filter="peta_masjid_agung">Peta Lokasi</a></div>
+          <div class="col-md-12 text-center ww-category-filter1 mb-4"  data-aos="zoom-in-down" data-aos-duration="1000">
+            <a class="btn btn-primary1" href="https://goo.gl/maps/UfjL2dgDNf2MH8ZUA" target="_blank" rel="noopener noreferrer" data-filter="peta_gedung_gsg">Peta Lokasi</a>
+          </div>
+        <!-- </div>
+      </div> -->
+      <!-- <div class="col-md-5 col-sm-12"> -->
+        <!-- <div class="my-3"><img class="img-fluid" src="images/masjid_Al_Akbar.jpg" alt="Wedding Party" data-aos="fade-down-right" data-aos-duration="1000"/></div> -->
+      <!-- </div> -->
     </div>
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-md-7 col-sm-12">
         <div class="my-3">
           <div class="h4 ww-nama2"  data-aos="zoom-in-down" data-aos-duration="1000">Resepsi</div>
@@ -163,9 +168,7 @@
             <li><i class="text-muted fas fa-map-marker-alt"  data-aos="zoom-in-down" data-aos-duration="1000"></i><span class="pl-2 text-muted"  data-aos="zoom-in-down" data-aos-duration="1000">Gedung Serba Guna GSG UNESA </span></li>
             <li class="pt-2"><i class="text-muted far fa-calendar-alt "  data-aos="zoom-in-down" data-aos-duration="1000"></i><span class="pl-2 text-muted"  data-aos="zoom-in-down" data-aos-duration="1000">Jum'at 01 Juli 2022, 15.00 WIB - 18.30 WIB</span></li>
           </ul>
-          <p  data-aos="zoom-in-down" data-aos-duration="1000">Resepsi akan di laksanakan di Gedung GSG Unesa 
-            di Jalan Ketintang Baru Selatan VIII No. 11, Ketintang, Gayungan, Ketintang, Surabaya, Ketintang, Kec. Gayungan, Kota SBY, Jawa Timur 60231, Indonesia</p>
-        </div>
+          </div>
         <div class="col-md-12 text-center ww-category-filter mb-4"  data-aos="zoom-in-down" data-aos-duration="1000">
           <a class="btn btn-primary1" href="https://goo.gl/maps/UfjL2dgDNf2MH8ZUA" target="_blank" rel="noopener noreferrer" data-filter="peta_gedung_gsg">Peta Lokasi</a>
         </div>
@@ -173,7 +176,7 @@
       <div class="col-md-5 col-sm-12">
         <div class="my-3"><img class="img-fluid" src="images/gedung_gsg.png" alt="Reception" data-aos="fade-up-right" data-aos-duration="1000"/></div>
       </div>
-    </div>
+    </div> -->
   </div>
 </div>
 <!-- <div class="ww-section" id="people"> -->
@@ -227,19 +230,19 @@
   <!-- timeline section -->
     <!-- lovestory Section -->
 
-  
+
 <div class="ww-section" id="people">
-  <div class="container bg-flower">
+  <div class="container bg-flower2">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12"><h2 class="h1 ww-nama4 ww-font1" data-aos="zoom-in-down" data-aos-duration="1000">Kisah Perjalanan Cinta Kami</h2>
           <ul class="timeline">
-            <li class="timeline-inverted right">
+            <li class="timeline-inverted right" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">
               <div class="timeline-image">
                 <img class="img-circle img-responsive" src="img/timeline/meet.png" alt="Couple first meet">
               </div>
               <div class="timeline-panel right-panel">
                 <div class="timeline-heading">
-                  <p class="posting_date">Maret 2019</p> 
+                  <p class="posting_date">Maret 2019</p>
                   <p class="ww-nama4 ww-title">Awal Perkenalan</p>
                 </div>
                 <div class="timeline-body">
@@ -254,15 +257,15 @@
                    </div>
                 </div>
               </div>
-              
+
             </li>
-            <li class="left">
+            <li class="left" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">
               <div class="timeline-image">
                 <img class="img-circle img-responsive" src="img/timeline/love.png" alt="">
               </div>
                <div class="timeline-panel left-panel">
                 <div class="timeline-heading">
-                  <p class="posting_date">Mei, 2021</p> 
+                  <p class="posting_date">Mei, 2021</p>
                   <p class="ww-nama4 ww-title">Menjalin Hubungan</p>
                 </div>
                 <div class="timeline-body">
@@ -278,13 +281,13 @@
                 </div>
               </div>
             </li>
-            <li class="timeline-inverted right">
+            <li class="timeline-inverted right" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">
               <div class="timeline-image">
                 <img class="img-circle img-responsive" src="img/timeline/trip.png" alt="Couple first holiday trip">
               </div>
               <div class="timeline-panel right-panel">
                 <div class="timeline-heading">
-                  <p class="posting_date">Februari, 2022</p> 
+                  <p class="posting_date">Februari, 2022</p>
                   <p class="ww-nama4 ww-title">Acara Pertemuan antar Keluarga</p>
                 </div>
                 <div class="timeline-body">
@@ -300,18 +303,18 @@
                 </div>
               </div>
             </li>
-            <li class="left">
-              <div class="timeline-image">
+            <li class="left" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">
+              <div class="timeline-image" >
                 <img class="img-circle img-responsive" src="img/timeline/engage.png" alt="Couple get engaged">
               </div>
               <div class="timeline-panel left-panel">
                 <div class="timeline-heading">
-                   <p class="posting_date">01 Juli, 2022</p>  
+                   <p class="posting_date">01 Juli, 2022</p>
                   <p class="ww-nama4 ww-title">Akan Melangsungkan Pernikahan</p>
                 </div>
                 <div class="timeline-body">
                   <div class="timeline_img">
-                    <p class="ww-nama5">Momen special kami akan dimulai setelah 1 tahun kami menjalin hubungan, dimana kami akan membangun keluarga kecil kami. Semoga Allah SWT memberikan keberkahan untuk pernikahan kami dan menjadi keluarga yang Sakinah Mawaddah Warahmah.    </p>	
+                    <p class="ww-nama5">Momen special kami akan dimulai setelah 1 tahun kami menjalin hubungan, dimana kami akan membangun keluarga kecil kami. Semoga Allah SWT memberikan keberkahan untuk pernikahan kami dan menjadi keluarga yang Sakinah Mawaddah Warahmah.    </p>
                       <!-- <div class="overlay_tml">
                       <div class="overlay_text">
                         <div class="inner-extra">
@@ -328,7 +331,7 @@
               </div>
               <div class="timeline-panel right-panel">
                 <div class="timeline-heading">
-                  <p class="posting_date"> january 19,2015</p> 
+                  <p class="posting_date"> january 19,2015</p>
                   <h3>Baby coming soon</h3>
                 </div>
                 <div class="timeline-body">
@@ -363,26 +366,27 @@
   </section>
 <!-- timeline section end-->
 <!-- </div> -->
-<div class="ww-section bg-flower" id="gallery">
+<div class="ww-section bg-flower4" id="gallery">
   <div class="ww-photo-gallery">
     <div class="container">
-      <h2 class="ww-nama text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Photo Gallery</h2>
-      <div class="col-md-12 text-center ww-category-filter mb-4">
+      <h2 class="text-center ww-nama3 ww-font1" data-aos="zoom-in-down" data-aos-duration="1000">Photo Gallery</h2>
+      <div class="col-md-12 text-center mb-4">
         <!-- <a class="btn btn-outline-primary ww-filter-button" href="#" data-filter="all"  data-aos="zoom-in-down" data-aos-duration="1000">All</a>
         <a class="btn btn-outline-primary ww-filter-button" href="#" data-filter="casual"  data-aos="zoom-in-down" data-aos-duration="1000">Casual</a>
         <a class="btn btn-outline-primary ww-filter-button" href="#" data-filter="wedding"  data-aos="zoom-in-down" data-aos-duration="1000">Pre Wedding</a></div> -->
       <div class="ww-gallery" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="0">
         <div class="card-columns">
-          <div class="card" data-groups="[&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0015.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0015.jpg" alt="Gallery Pic 1"/></a></div>
-          <div class="card" data-groups="[&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0070.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0070.jpg" alt="Gallery Pic 2"/></a></div>
-          <div class="card" data-groups="[&quot;wedding&quot;]"><a href="images/prewedd/_DSC0357.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0357.jpg" alt="Gallery Pic 3"/></a></div>
-          <div class="card" data-groups="[&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0355.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0355.jpg" alt="Gallery Pic 4"/></a></div>
-          <div class="card" data-groups="[&quot;wedding&quot;]"><a href="images/prewedd/_DSC0142.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0142.jpg" alt="Gallery Pic 5"/></a></div>
-          <div class="card" data-groups="[&quot;wedding&quot;,&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0131.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0131.jpg" alt="Gallery Pic 6"/></a></div>
-          <div class="card" data-groups="[&quot;wedding&quot;,&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0139.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0139.jpg" alt="Gallery Pic 7"/></a></div>
-          <div class="card" data-groups="[&quot;wedding&quot;,&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0172.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0172.jpg" alt="Gallery Pic 8"/></a></div>
-          <div class="card" data-groups="[&quot;wedding&quot;,&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0197.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0197.jpg" alt="Gallery Pic 9"/></a></div>
-          <div class="card" data-groups="[&quot;wedding&quot;,&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0351.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0351.jpg" alt="Gallery Pic 10"/></a></div>
+          <div class="card" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-groups="[&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0015.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0015.jpg" alt="Gallery Pic 1"/></a></div>
+          <div class="card" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"data-groups="[&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0259.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0259.jpg" alt="Gallery Pic 2"/></a></div>
+          <div class="card" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"data-groups="[&quot;wedding&quot;]"><a href="images/prewedd/_DSC0234.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0234.jpg" alt="Gallery Pic 3"/></a></div>
+          <div class="card" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"data-groups="[&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0355.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0355.jpg" alt="Gallery Pic 4"/></a></div>
+          <div class="card" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"data-groups="[&quot;wedding&quot;]"><a href="images/prewedd/_DSC0142.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0142.jpg" alt="Gallery Pic 5"/></a></div>
+          <div class="card" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"data-groups="[&quot;wedding&quot;,&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0151.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0151.jpg" alt="Gallery Pic 6"/></a></div>
+          <div class="card" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"data-groups="[&quot;wedding&quot;,&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0139.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0139.jpg" alt="Gallery Pic 7"/></a></div>
+          <div class="card" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"data-groups="[&quot;wedding&quot;,&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0355.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0355.jpg" alt="Gallery Pic 8"/></a></div>
+          <div class="card" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"data-groups="[&quot;wedding&quot;,&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0197.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0197.jpg" alt="Gallery Pic 9"/></a></div>
+          <div class="card" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"data-groups="[&quot;wedding&quot;,&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0351.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0351.jpg" alt="Gallery Pic 10"/></a></div>
+          <div class="card" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"data-groups="[&quot;wedding&quot;,&quot;wedding&quot;,&quot;wedding&quot;]"><a href="images/prewedd/_DSC0176.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="images/prewedd/_DSC0176.jpg" alt="Gallery Pic 1 1"/></a></div>
         </div>
       </div>
     </div>
@@ -414,10 +418,10 @@
     </div>
   </div>
 </div>
-<div class="ww-section ww-rsvp-detail text-white" id="rsvp">
+<div class="ww-section text-white" id="rsvp">
   <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
     <div class="col text-center">
-      <h2 class="h1 ww-title pb-3" data-aos="zoom-in-down" data-aos-duration="1000">Ucapan & Doa</h2>
+      <h2 class="text-center ww-nama3 ww-font1" data-aos="zoom-in-down" data-aos-duration="1000">Ucapan & Doa</h2>
       <img class="img-fluid mt-1 card-img-top" src="images/prewedd/_DSC0283.jpg" alt=""/><br><br><br>
           <button class="btn btn-primary1" type="button" name="btnSubmit" id="btnSubmit" onclick="kehadiran()">Kirimkan Ucapan</button>
         </div>
@@ -429,12 +433,12 @@
 <!-- <div class="ww-footer bg-light">
   <div class="container text-center py-4">
     <p class="my-0">&copy; Pernikahan Aji & Pusvita</p>
-    
+
   </div>
 </div> -->
 </div>
-    
-    <!-- <p data-aos="zoom-in">Pencet love nya 
+
+    <!-- <p data-aos="zoom-in">Pencet love nya
       <i onclick="tanya()" class="material-icons-sharp"> favorite </i></p> -->
 
     <script src="scripts/jquery.min.js?ver=1.1.0"></script>
@@ -443,7 +447,7 @@
     <script src="scripts/ekko-lightbox.min.js?ver=1.1.0"></script>
     <script src="scripts/main.js?ver=1.1.0"></script>
     <script src="scripts/function.js"></script>
-    
+
     <script>
       const firebaseConfig = {
         apiKey: "AIzaSyCO2ebrrbVhIBlsMo_wFaq-ESrzXxJsYVI",
@@ -463,7 +467,7 @@
           var current = new Date();
           var current = (Date.parse(current) / 1000);
           var leftTime = last - current;
-          var days = Math.floor(leftTime / 86400); 
+          var days = Math.floor(leftTime / 86400);
           var hours = Math.floor((leftTime - (days * 86400)) / 3600);
           var minutes = Math.floor((leftTime - (days * 86400) - (hours * 3600 )) / 60);
           var seconds = Math.floor((leftTime - (days * 86400) - (hours * 3600) - (minutes * 60)));
@@ -484,61 +488,61 @@
       </script>
 
     <script>
-                
+
       function gotowhatsapp() {
-          
+
           var name = document.getElementById("name").value;
           var phone = document.getElementById("phone").value;
           var kehadiran = document.getElementById("kehadiran").value;
           var pesan = document.getElementById("pesan").value;
-      
+
           // var url = "https://wa.me/08995129298?text="
-          var url = "https://api.whatsapp.com/send?" 
+          var url = "https://api.whatsapp.com/send?"
           + "Phone=" + phone + "&"
           + "text=" + "Hallo, Saya " + "*" + name + "*" + "%0a"
           + "Ingin konfirmasi kehadiran pada undangan pernikahan digital bahwa " + kehadiran + "%0a"
-          + "Saya ucapkan " + "*" + pesan + "*" + " Terima kasih"; 
-      
+          + "Saya ucapkan " + "*" + pesan + "*" + " Terima kasih";
+
           window.open(url, '_blank').focus();
       }
       </script>
-      
+
     <script>
 
-      var musik = "./audio/Yovie&Nuno-Janji-Suci.mp3";
+      var musik = "./audio/River-Flows-In-YouSmooth.mp3";
 
     </script>
-    <script> AOS.init({ once: true, }); </script> 
-    <script> 
-    var audio = document.querySelector(".audio"); 
+    <script> AOS.init({ once: true, }); </script>
+    <script>
+    var audio = document.querySelector(".audio");
     if(musik) {
       audio.src = musik;
       audio.controls= musik;
-    } 
-    function mulai() 
-    { audio.play(); document.querySelector(".open").style = "opacity: 0;"; document.querySelector(".body").style = "overflow-y: scroll;"; 
-    setTimeout(function () { document.querySelector(".open").style.display = "none"; }, 1000); } 
+    }
+    function mulai()
+    { audio.play(); document.querySelector(".open").style = "opacity: 0;"; document.querySelector(".body").style = "overflow-y: scroll;";
+    setTimeout(function () { document.querySelector(".open").style.display = "none"; }, 1000); }
 
-    function wa(isi) 
-    { window.open("https://api.whatsapp.com/send?text= Hallo, saya ingin konfirmasi kehadiran pada undangan digital doanya " + isi ); } 
-    async function tanya()   
+    function wa(isi)
+    { window.open("https://api.whatsapp.com/send?text= Hallo, saya ingin konfirmasi kehadiran pada undangan digital doanya " + isi ); }
+    async function tanya()
       { var { value: kado } = await swal.fire(
-        { 
+        {
         title: "Mohon isi nama anda",
         input: "text",
-        showCancelButton: false, 
+        showCancelButton: false,
         }
       );
       var { value: kado1 } = await swal.fire(
-        { 
+        {
         title: "Berikan ucapan dan doa anda untuk kami",
         input: "text",
-        showCancelButton: false, 
+        showCancelButton: false,
         }
-      ); 
-        if (kado && kado1) { await swal.fire("Kirim jawabannya ke wa aku ya"); 
-        wa(kado && kado1); } else { await swal.fire("Jangan dikosongin dong"); 
-        tanya(); } } 
-    </script> 
+      );
+        if (kado && kado1) { await swal.fire("Kirim jawabannya ke wa aku ya");
+        wa(kado && kado1); } else { await swal.fire("Jangan dikosongin dong");
+        tanya(); } }
+    </script>
   </body>
 </html>
