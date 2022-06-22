@@ -3059,7 +3059,8 @@ input[type="button"].btn-block {
   display: block; }
 
 .navbar {
-  position: relative;
+  position: fixed;
+  bottom: 0;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -3087,8 +3088,8 @@ input[type="button"].btn-block {
   display: flex;
   flex-direction: column;
   padding-left: 0;
-  margin-bottom: 0;
-  list-style: none; }
+  list-style: none; 
+}
   .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0; }
