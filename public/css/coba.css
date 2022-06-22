@@ -148,7 +148,7 @@
   }
   #chat_content_container{
     width: 100%;
-    height: 600%;
+    height: 50%;
     background-color:transparent;
     float: left;
     overflow-y: auto;
