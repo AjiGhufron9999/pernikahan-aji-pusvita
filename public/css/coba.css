@@ -134,18 +134,19 @@
     margin-top: 40px;
     /* Fade in container */
     animation: fadeIn 1s linear;
+
   
   }
   #chat_inner_container{
-    width: 450px;
+    width: 430px;
     height: 40%;
     /* position:fixed; */
     bottom: 0 auto;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 5%;
-    background: url("../images/background/background6.jpeg");
     background-size: cover;
+    align-content: center;
   }
   #chat_content_container{
     width: 100%;
@@ -154,6 +155,7 @@
     float: left;
     overflow-y: auto;
     font-family: Varela Round;
+    background: url("../images/background/background6.jpeg");
   
     /* padding-left: 15px;
     padding-right: 15px; */
