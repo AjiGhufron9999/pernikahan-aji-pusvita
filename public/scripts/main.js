@@ -297,19 +297,19 @@ function kehadiran() {
       var chat_logout_container = document.createElement('div')
       chat_logout_container.setAttribute('id', 'chat_logout_container')
 
-      var chat_logout = document.createElement('button')
-      chat_logout.setAttribute('id', 'chat_logout')
-      chat_logout.textContent = ``
+      // var chat_logout = document.createElement('button')
+      // chat_logout.setAttribute('id', 'chat_logout')
+      // chat_logout.textContent = ``
       // "Logout" is really just deleting the name from the localStorage
-      chat_logout.onclick = function(){
-        localStorage.clear()
-        // Go back to home page
-        parent.create_join_form()
-      }
+      // chat_logout.onclick = function(){
+      //   localStorage.clear()
+      //   // Go back to home page
+      //   parent.create_join_form()
+      // }
 
-      chat_logout_container.append(chat_logout)
+      // chat_logout_container.append(chat_logout)
       chat_input_container.append(chat_input, chat_input_send)
-      chat_inner_container.append(chat_content_container, chat_input_container, chat_logout_container)
+      chat_inner_container.append(chat_content_container, chat_input_container)
       chat_container.append(chat_inner_container)
       document.body.append(chat_container)
       // After creating the chat. We immediatly create a loading circle in the 'chat_content_container'
