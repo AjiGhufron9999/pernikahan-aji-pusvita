@@ -111,20 +111,19 @@ function playPause(){
   }
 }
 
-// We enclose this in window.onload.
-// So we don't have ridiculous errors.
+
 function kehadiran() {
 
   const firebaseConfig = {
-      apiKey: "AIzaSyCO2ebrrbVhIBlsMo_wFaq-ESrzXxJsYVI",
-      authDomain: "pernikahan-aji-pusvita.firebaseapp.com",
-      databaseURL: "https://pernikahan-aji-pusvita-default-rtdb.asia-southeast1.firebasedatabase.app",
-      projectId: "pernikahan-aji-pusvita",
-      storageBucket: "pernikahan-aji-pusvita.appspot.com",
-      messagingSenderId: "387364943897",
-      appId: "1:387364943897:web:816ee96f3a156a0536d288",
-      measurementId: "G-RVJ3C0T1ZM"
-    };
+    apiKey: "AIzaSyCO2ebrrbVhIBlsMo_wFaq-ESrzXxJsYVI",
+    authDomain: "pernikahan-aji-pusvita.firebaseapp.com",
+    databaseURL: "https://pernikahan-aji-pusvita-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "pernikahan-aji-pusvita",
+    storageBucket: "pernikahan-aji-pusvita.appspot.com",
+    messagingSenderId: "387364943897",
+    appId: "1:387364943897:web:816ee96f3a156a0536d288",
+    measurementId: "G-RVJ3C0T1ZM"
+  };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   // This is very IMPORTANT!! We're going to use "db" a lot.
@@ -297,17 +296,17 @@ function kehadiran() {
       var chat_logout_container = document.createElement('div')
       chat_logout_container.setAttribute('id', 'chat_logout_container')
 
-      // var chat_logout = document.createElement('button')
-      // chat_logout.setAttribute('id', 'chat_logout')
-      // chat_logout.textContent = ``
+      var chat_logout = document.createElement('button')
+      chat_logout.setAttribute('id', 'chat_logout')
+      chat_logout.textContent = ``
       // "Logout" is really just deleting the name from the localStorage
-      // chat_logout.onclick = function(){
-      //   localStorage.clear()
-      //   // Go back to home page
-      //   parent.create_join_form()
-      // }
+      chat_logout.onclick = function(){
+        localStorage.clear()
+        // Go back to home page
+        parent.create_join_form()
+      }
 
-      // chat_logout_container.append(chat_logout)
+      chat_logout_container.append(chat_logout)
       chat_input_container.append(chat_input, chat_input_send)
       chat_inner_container.append(chat_content_container, chat_input_container)
       chat_container.append(chat_inner_container)

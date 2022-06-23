@@ -520,10 +520,18 @@
   background:rgb(115, 186, 219);
 
 }
+.ww-ucapan{
+  padding-bottom: 30px;
+}
 
   .btn-primary1 {
     background:rgb(238, 160, 196);
     color: white;
+  }
+  .btn-primary2 {
+    background:rgb(238, 160, 196);
+    color: white;
+    padding-bottom: 10%;
   }
 
 .btn-outline-primary:hover {
