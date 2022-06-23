@@ -144,7 +144,7 @@
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 5%;
-    background: url("../images/background/background5.jpeg");
+    background: url("../images/background/background6.jpeg");
     background-size: cover;
   }
   #chat_content_container{
@@ -211,7 +211,7 @@
     display: inline-block;
     margin-bottom: 10px;
     text-align: left; color: rgba(243, 157, 200); 
-      background-color: rgb(216, 178, 122);
+      background-color: rgb(231, 121, 176);
       border-radius: 30px;
       padding-left: 5%;
       
