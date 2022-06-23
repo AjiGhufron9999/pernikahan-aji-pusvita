@@ -41,7 +41,7 @@
   height: 100%;
   /* background-position: center; */
   margin: 0 auto;
-  background: url("../images/background/utama.png");
+  background: url("../images/background/utama1.jpg");
   background-size: cover;
   padding-top: 10px; }
   .ww-home-page .ww-wedding-announcement {
@@ -257,7 +257,7 @@
     padding: 10px 10px; border-radius: 20px;
   }
   /* Style open card */
-  .open { background: url("../images/background/utama.png");
+  .open { background: url("../images/background/utama1.jpg");
     background-position: center;
     background-size: cover;
   width: 450px ;
